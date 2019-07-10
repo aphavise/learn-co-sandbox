@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "vlookup/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "environment"
+  spec.name          = "vlookup"
   spec.version       = Vehicle::VERSION
   spec.authors       = ["'Andrew Phaviseth'"]
   spec.email         = ["'andrewphaviseth@gmail.com'"]

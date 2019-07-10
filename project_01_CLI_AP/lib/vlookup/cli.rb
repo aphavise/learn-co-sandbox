@@ -6,7 +6,6 @@ class Vehicle::CLI
     puts 'Welcome to Vehicle and Vehicle Parts Finder'
     list_selection
     goodbye 
-    
   
   end
   
