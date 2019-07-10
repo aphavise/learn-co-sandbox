@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'vlookup'
-
-Vehicle::CLI.new.call

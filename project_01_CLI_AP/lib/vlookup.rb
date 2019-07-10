@@ -1,8 +1,9 @@
-require "test/vlookup/version"
+require_relative "./vlookup/version"
+require_relative "./vlookup/cli"
 
-module Vehicle 
-  module Cli
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require 'bundler'
+Bundler.require
+
+require 'nokogiri'
+require 'open-url'
+require 'pry'
