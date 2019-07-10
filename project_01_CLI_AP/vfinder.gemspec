@@ -1,9 +1,9 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "vlookup/cli/version"
+require "vlookup/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "vlookup"
+  spec.name          = "environment"
   spec.version       = Vehicle::VERSION
   spec.authors       = ["'Andrew Phaviseth'"]
   spec.email         = ["'andrewphaviseth@gmail.com'"]
@@ -37,4 +37,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry"
+ 
 end

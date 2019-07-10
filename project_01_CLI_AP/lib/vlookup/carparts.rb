@@ -1,9 +1,13 @@
-class CarParts
+class Vehicle::CarParts
 
-
-    def initialize 
+  attr_accessor :name
+  
+  @all = [ ]
+  
+  def initialize (name)
+    @name = name 
     
-    end
-
+  end
+  
 
 end 

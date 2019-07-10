@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
-require './lib/vlookup'
+require './lib/environment'
 require 'bundler/setup'
 
-app = Vehicle::CLI.new
-app.call
+Vehicle::CLI.new.call

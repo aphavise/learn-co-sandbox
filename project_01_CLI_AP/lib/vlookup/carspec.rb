@@ -1,5 +1,4 @@
-class Location 
-  attr_accessor @name 
+class CarSpec::Vehicle
  
     def initialize(name)
     @name = name 
