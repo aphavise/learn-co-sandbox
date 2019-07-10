@@ -2,6 +2,7 @@
 
 class Vehicle::CLI
 
+
   def call
     puts 'Welcome to Vehicle and Vehicle Parts Finder'
     list_selection

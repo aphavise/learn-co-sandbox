@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require './lib/environment'
-require 'bundler/setup'
+require "./lib/environment"
+require "bundler/setup"
+
 
 Vehicle::CLI.new.call
