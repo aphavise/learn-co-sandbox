@@ -3,15 +3,24 @@
 class Vehicle::CLI
 
 
+
   def call
     puts 'Welcome to Vehicle and Vehicle Parts Finder'
     list_selection
-    goodbye 
+    
   
   end
   
   def list_selection
     puts "Type either vehicle, parts or exit"
+      if vehicle 
+        
+        
+      elsif parts 
+      
+      else exit
+      goodbye 
+      end 
   end 
   
   
